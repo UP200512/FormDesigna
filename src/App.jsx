@@ -52,6 +52,7 @@ function App() {
           {/* <pre>
             {JSON.stringify(watch(), null, 2)}
           </pre> */}
+          {console.log(watch())}
         </section>
       ) : <h1>No hay preguntas disponibles</h1>}
     </div>
