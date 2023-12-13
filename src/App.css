@@ -1,0 +1,78 @@
+/* Estilos para el contenedor principal */
+body {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 10px;
+}
+.principal {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para cada sección del formulario */
+section {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el título de cada sección */
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Estilos para cada pregunta */
+div {
+  margin-bottom: 15px;
+}
+
+/* Estilos para las etiquetas de las preguntas */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada y select */
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilos para los botones de navegación */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Cambiar color al pasar el mouse sobre los botones */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos específicos para el botón "Atras" */
+button:first-child {
+  background-color: #f44336;
+}
+
+button:first-child:hover {
+  background-color: #d32f2f;
+}
+
+span {
+  display: block;
+  color: tomato;
+  font-size: x-small;
+}
